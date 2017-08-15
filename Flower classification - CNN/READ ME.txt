@@ -54,8 +54,6 @@ FILE : flowers-CNN-make-prediction.py
 * Loaded the saved model
 * Loaded the image to make prediction
 * Applyed needed image dimension ordering
-* Made precdiction and displayed the accuracy
-
-
+* Made precdiction and displayed the accuracy - 72% - could be improved by increasing the number of pixels
 
 
