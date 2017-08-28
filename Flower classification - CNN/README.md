@@ -32,9 +32,9 @@ CODED IN PYTHON WITH KERAS WITH PYCHARM IDE
 * Shuffeled the dataset
 * Split the dataset to test and train
 * **Defined a CNN with**
- **- 3 Convolution2D layers and 3 MaxPooling2D layers**
- **- Followed by a 128 node nerural net layer**
- **- Last layer with number of classes(5) and softmax activation**
+ *** 3 Convolution2D layers and 3 MaxPooling2D layers**
+ *** Followed by a 128 node nerural net layer**
+ *** Last layer with number of classes(5) and softmax activation**
 * Compiled using adam optimizer
 * Defined checkpoints to save the best weight
 * Fitted the model with training sets
