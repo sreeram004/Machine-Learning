@@ -22,6 +22,7 @@ FILES
 FILE : flower-classification-CNN.py
 OUTPUT : trained CNN model's weight 
 
+* Randomness fixed with seed
 * Specified the rows and columns as 32 (to use 32x32 image)
 * Color channels as 3 (For RGB)
 * Loaded the downloaded dataset situated at the home folder after resizing to 32x32
@@ -45,6 +46,7 @@ OUTPUT : trained CNN model's weight
 
 FILE : CNN-model-from-weight.py
 
+* Randomness fixed with seed
 * Loaded the saved weight
 * Compiled the model
 * Saved the model
