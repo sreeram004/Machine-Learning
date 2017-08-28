@@ -3,8 +3,11 @@
 **PROBLEM : MULTI CLASS CLASSIFICATION**
 
 **SOURCE** : UCI
+
 **DATA ITEMS** : 150
+
 **CLASSES** : 3
+
 
 **Coded using Keras with Tensorflow backend**
 
