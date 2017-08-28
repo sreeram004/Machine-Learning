@@ -5,7 +5,6 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.utils import shuffle
 from sklearn import model_selection
 from keras import backend as K
-K.set_image_dim_ordering('th')
 from keras.constraints import maxnorm
 from keras.utils import np_utils
 from keras.models import Sequential
@@ -13,6 +12,11 @@ from keras.layers.core import Dense, Dropout, Flatten
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
 from keras.optimizers import SGD,RMSprop,adam
 from keras.callbacks import ModelCheckpoint
+
+K.set_image_dim_ordering('th')
+
+seed = 7
+np.random.seed(seed)
 
 PATH = os.getcwd()
 # Define data path
