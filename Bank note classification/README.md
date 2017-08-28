@@ -30,5 +30,6 @@ BACKEND : Theano
 * Made predictions on the testData chosen from the dataset
 
 **|| Split ratio was increased to .30 and accuracy changed to 99.2%**
+
 **|| Split ratio was further increasd to .50 and accuracy changed to 96.8%**
 
