@@ -1,6 +1,9 @@
 # BANK NOTE CLASSIFICATION
+
 **DOMAIN** : BINARY CLASSIFICATION
+
 **SOURCE** : UCI
+
 **URL** : https://archive.ics.uci.edu/ml/datasets/banknote+authentication
 
 **ACCURACY : 100% (epochs v/s accuracy graph attatched for verification)**
