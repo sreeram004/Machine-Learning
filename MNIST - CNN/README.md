@@ -20,7 +20,7 @@
   **Flattened and passed to the Dense layers 128->50->10**
 * Compiled with categorical_crossentropy loss and adam optimizer
 * Fitted training set validating on the test set for 20epochs
-* Evaluated the model to find the accuracy -  **Accuracy of 93% was obtained**
+* Evaluated the model to find the accuracy -  **Accuracy of 99% was obtained**
 * Saved the model to disk for future use
 * Loaded the model from disk
 * Loaded the image to make prediction on and appplied reshaping and normalization
