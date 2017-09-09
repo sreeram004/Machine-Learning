@@ -6,6 +6,8 @@
 
 **Coded using Keras with Theano backend**.
 
+**Accuracy : 99%**
+
 **Saved Model in mnistmodel.h5 file**
 
 **File** : cnn-mnist.py
