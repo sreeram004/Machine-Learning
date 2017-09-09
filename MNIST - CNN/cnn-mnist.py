@@ -31,8 +31,8 @@ X_train = X_train / 255
 X_test = X_test / 255
 # one hot encode outputs
 
-y_train = np_utils.to_categorical(y_train)
-y_test = np_utils.to_categorical(y_test)
+y_train = np_utils.to_categorical(y_train, 10)
+y_test = np_utils.to_categorical(y_test, 10)
 num_classes = y_test.shape[1]
 
 
@@ -61,9 +61,10 @@ model = cnnmodel()
 # fit on training set
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_size=200, verbose=2)
 
-# evaluate the model - got 93% accuracy
+# evaluate the model - got 99% accuracy
 scores = model.evaluate(X_test, y_test, verbose=0)
-print("Baseline : %.2f%%" % (100 - scores[1]*100))
+print("Accuracy: %.2f%%" % (scores[1]*100))
+
 
 
 # save the model for future use
